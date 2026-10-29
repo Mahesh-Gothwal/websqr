@@ -1,0 +1,15 @@
+# robots.txt for WebSqr
+# Website: https://www.websqr.com/
+
+User-agent: *
+Allow: /
+
+# Block private and development areas, if present
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /private/
+Disallow: /staging/
+
+# Sitemap location
+Sitemap: https://www.websqr.com/sitemap.xml
